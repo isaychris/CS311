@@ -1,0 +1,275 @@
+Script started on Tue 20 Sep 2016 03:01:37 PM PDT
+]0;banci002@empress:~/cs311files/compile/HW1P2/vector[banci002@empress vector]$ g++ client1.cpp vstack.cpp
+]0;banci002@empress:~/cs311files/compile/HW1P2/vector[banci002@empress vector]$ ./a.ot[Kut
+type a postfix expression: 34+
+3
+--------------
+4
+3
+--------------
+7
+--------------
+result: 7
+]0;banci002@empress:~/cs311files/compile/HW1P2/vector[banci002@empress vector]$ ./a.out
+type a postfix expression: 345+*
+3
+--------------
+4
+3
+--------------
+5
+4
+3
+--------------
+9
+3
+--------------
+27
+--------------
+result: 27
+]0;banci002@empress:~/cs311files/compile/HW1P2/vector[banci002@empress vector]$ ./a.out
+type a postfix expression: 722+-
+7
+--------------
+2
+7
+--------------
+2
+2
+7
+--------------
+4
+7
+--------------
+3
+--------------
+result: 3
+]0;banci002@empress:~/cs311files/compile/HW1P2/vector[banci002@empress vector]$ ./a.out
+type a postfix expression: 34+56++
+3
+--------------
+4
+3
+--------------
+7
+--------------
+5
+7
+--------------
+6
+5
+7
+--------------
+11
+7
+--------------
+18
+--------------
+result: 18
+]0;banci002@empress:~/cs311files/compile/HW1P2/vector[banci002@empress vector]$ ./a.out
+type a postfix expression: 12+34*45+-+
+1
+--------------
+2
+1
+--------------
+3
+--------------
+3
+3
+--------------
+4
+3
+3
+--------------
+12
+3
+--------------
+4
+12
+3
+--------------
+5
+4
+12
+3
+--------------
+9
+12
+3
+--------------
+3
+3
+--------------
+6
+--------------
+result: 6
+]0;banci002@empress:~/cs311files/compile/HW1P2/vector[banci002@empress vector]$ ./a.out
+type a postfix expression: 1234567891234
+1
+--------------
+2
+1
+--------------
+3
+2
+1
+--------------
+4
+3
+2
+1
+--------------
+5
+4
+3
+2
+1
+--------------
+6
+5
+4
+3
+2
+1
+--------------
+7
+6
+5
+4
+3
+2
+1
+--------------
+8
+7
+6
+5
+4
+3
+2
+1
+--------------
+9
+8
+7
+6
+5
+4
+3
+2
+1
+--------------
+1
+9
+8
+7
+6
+5
+4
+3
+2
+1
+--------------
+2
+1
+9
+8
+7
+6
+5
+4
+3
+2
+1
+--------------
+3
+2
+1
+9
+8
+7
+6
+5
+4
+3
+2
+1
+--------------
+4
+3
+2
+1
+9
+8
+7
+6
+5
+4
+3
+2
+1
+--------------
+result: 4
+[Error] Incomplete expression! 
+
+Current stack
+--------------
+3
+2
+1
+9
+8
+7
+6
+5
+4
+3
+2
+1
+--------------
+]0;banci002@empress:~/cs311files/compile/HW1P2/vector[banci002@empress vector]$ ./a.out
+type a postfix expression: +
+[Error] Underflow: Not enough operands!
+]0;banci002@empress:~/cs311files/compile/HW1P2/vector[banci002@empress vector]$ ./a.out3+[K[K
+type a postfix expression: 3+
+3
+--------------
+[Error] Underflow: Not enough operands!
+]0;banci002@empress:~/cs311files/compile/HW1P2/vector[banci002@empress vector]$ ./a.out
+type a postfix expression: 3#
+3
+--------------
+[Error] Expression contains invalid item! 
+]0;banci002@empress:~/cs311files/compile/HW1P2/vector[banci002@empress vector]$ ./a.out
+type a postfix expression: 2345+
+2
+--------------
+3
+2
+--------------
+4
+3
+2
+--------------
+5
+4
+3
+2
+--------------
+9
+3
+2
+--------------
+result: 9
+[Error] Incomplete expression! 
+
+Current stack
+--------------
+3
+2
+--------------
+]0;banci002@empress:~/cs311files/compile/HW1P2/vector[banci002@empress vector]$ exit
+exit
+
+Script done on Tue 20 Sep 2016 03:04:09 PM PDT

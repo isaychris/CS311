@@ -1,0 +1,37 @@
+Script started on Thu 15 Sep 2016 08:12:32 PM PDT
+]0;banci002@empress:~/cs311files/finalversion/HWP1/queue[banci002@empress queue]$ g++ client2.cpp queue.cpp queue.h
+]0;banci002@empress:~/cs311files/finalversion/HWP1/queue[banci002@empress queue]$ a[K./a.out
+A
+B
+C
+AA
+AB
+AC
+BA
+BB
+BC
+CA
+CB
+CC
+AAA
+AAB
+AAC
+ABA
+ABB
+ABC
+ACA
+ACB
+ACC
+BAA
+BAB
+BAC
+BBA
+BBB
+BBC
+BCA
+BCB
+Error: Overflow! - Queue is full. 
+]0;banci002@empress:~/cs311files/finalversion/HWP1/queue[banci002@empress queue]$ exit
+exit
+
+Script done on Thu 15 Sep 2016 08:12:57 PM PDT
